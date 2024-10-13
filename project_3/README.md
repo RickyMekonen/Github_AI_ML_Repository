@@ -53,7 +53,6 @@ Understanding the relationship between lifestyle factors and lifestyle diseases 
 
 1. Clone the repository to your local machine.
 2. Install any necessary dependencies (if applicable).
-3. Run the analysis scripts to explore the data.
 
 ## License
 
