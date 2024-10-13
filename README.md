@@ -106,7 +106,7 @@ Understanding the relationship between lifestyle factors and lifestyle diseases 
 
 To get started with any of the projects in this repository, clone the repository to your local machine:
 
-git clone https://github.com/yourusername/repo-name.git
+git clone https://github.com/RickyMekonen/Github_AI_ML_Repository.git
 
 Navigate to the project directory and install any necessary dependencies.
 
