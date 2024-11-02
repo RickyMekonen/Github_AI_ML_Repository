@@ -18,7 +18,7 @@ This project aims to investigate the relationship between common lifestyle facto
 
 ### Lifestyle Factors
 
-- Daily fruit consumption
+- Daily fruit and Veggies consumption
 - Physical activity
 - Sleep patterns (e.g., average hours of sleep per night)
 - Alcohol consumption
