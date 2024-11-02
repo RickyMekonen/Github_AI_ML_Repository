@@ -1,58 +1,81 @@
-# Lifestyle Factors and Lifestyle Diseases Project
+# Investigating Lifestyle Factors and Diabetes Prevalence
 
 ## Overview
 
-This project aims to investigate the relationship between common lifestyle factors—such as diet, physical activity, sleep patterns, and stress levels—and the prevalence of lifestyle diseases, including obesity, diabetes, and cardiovascular diseases. By understanding these relationships, I hope to provide insights into effective public health interventions and lifestyle modifications that may reduce the risk of developing these diseases.
+This project aims to investigate the relationship between common lifestyle factors—such as diet, physical activity, sleep patterns, and stress levels—and the prevalence of major lifestyle diseases, specifically diabetes. By understanding these relationships, the project seeks to provide insights into effective public health interventions and lifestyle modifications that may reduce the risk of developing diabetes.
 
 ## Research Question
 
-**How do common lifestyle factors influence the prevalence of lifestyle diseases in different demographics?**
+**How do common lifestyle factors influence the prevalence of diabetes in different demographics?**
 
 ## Objectives
 
-- Analyze the impact of specific lifestyle factors on the occurrence of lifestyle diseases.
-- Identify trends and correlations that may inform public health initiatives.
+- Analyze how different lifestyle factors correlate with diabetes prevalence.
+- Identify patterns and trends that may indicate higher risks.
+- Suggest actionable recommendations for individuals and public health initiatives.
 
 ## Data Requirements
 
 ### Lifestyle Factors
-- Dietary habits (e.g., fruit and vegetable intake, processed food consumption)
-- Physical activity levels (e.g., frequency and duration of exercise)
+
+- Daily fruit consumption
+- Physical activity
 - Sleep patterns (e.g., average hours of sleep per night)
-- Stress levels (e.g., self-reported stress scales)
+- Alcohol consumption
+- Smoking
 
-### Health Outcomes
-- Prevalence rates of lifestyle diseases (e.g., obesity rates, diabetes incidence)
-- Demographic information (e.g., age, gender, socioeconomic status)
+### Data Sources
 
-### Potential Data Sources
-- Public health databases (e.g., CDC, WHO)
-- National health surveys or studies (e.g., NHANES, BRFSS)
-- Academic articles or health reports summarizing relevant statistics
+- [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
+- [Synthetic Diabetes 2 Type Prediction Dataset](https://www.kaggle.com/datasets/nigoraxonnasimova/synthetic-diabetes-2-type-prediction-dataset)
+
+*I am merging the above two datasets, focusing only on features with lifestyle indicators.*
 
 ## Methodology
 
-1. **Data Collection**: Gather secondary data from reliable sources or conduct surveys to collect primary data on lifestyle habits.
-  
-2. **Data Analysis Techniques**:
-   - Descriptive Statistics: Summarize the data and understand general trends.
-   - Correlation Analysis: Explore relationships between lifestyle factors and disease prevalence.
-   - Regression Analysis: Model the impact of multiple lifestyle factors on the likelihood of developing lifestyle diseases.
-   - Data Visualization: Use graphs and charts to present findings clearly.
+1. **Problem Definition**  
+   **Objective**: Predict the risk of developing diabetes based on various lifestyle factors and classify individuals into risk categories (e.g., low, moderate, high).
+
+2. **Data Collection and Preprocessing**  
+   - Clean and preprocess data (handling missing values, outliers).
+   - Engineer features that will be used in modeling.
+
+3. **Regression Model**  
+   **Modeling**: Using regression techniques to predict the risk score.  
+   **Risk Score Calculation**: This will provide a numerical value indicating the likelihood of developing diabetes based on the features.
+
+4. **Classification Model**  
+   **Thresholding**: Define thresholds for the risk score to categorize individuals:  
+   - Low Risk: Score < X  
+   - Moderate Risk: Score between X and Y  
+   - High Risk: Score > Y  
+   **Modeling**: Use classification techniques (e.g., decision trees) to assign individuals to these risk categories based on their risk scores.
+
+5. **Evaluation**  
+   **Regression Evaluation**: Use metrics like RMSE or R² to evaluate the regression model’s performance.  
+   **Classification Evaluation**: Use accuracy, precision, recall, F1 score, and AUC-ROC to evaluate the classification model's performance.  
+   **Comparison**: Compare the performance of logistic regression and decision trees to identify which model provides better insights and predictions.
+
+## Tools and Libraries
+
+- Python
+- scikit-learn for modeling
+- pandas for data manipulation
+- matplotlib and seaborn for visualization
 
 ## Expected Outcomes
 
-- Identification of key lifestyle factors significantly associated with lifestyle diseases.
+- Identification of key lifestyle factors significantly associated with diabetes.
 - Recommendations for public health interventions aimed at promoting healthier lifestyle choices.
 
 ## Conclusion
 
-Understanding the relationship between lifestyle factors and lifestyle diseases is essential for developing effective public health strategies. This project aims to contribute valuable insights that can help individuals make informed lifestyle choices and ultimately reduce the burden of lifestyle-related diseases.
+This hybrid approach leverages the strengths of both logistic regression and decision trees, providing both a nuanced risk score and clear categorizations. By comparing the two models, you can gain deeper insights into the relationships between lifestyle factors and diabetes risk.
 
 ## Getting Started
 
 1. Clone the repository to your local machine.
-2. Install any necessary dependencies (if applicable).
+2. Install any necessary dependencies (see requirements.txt for details).
 
 ## License
 
