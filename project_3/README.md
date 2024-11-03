@@ -36,7 +36,7 @@ This project aims to investigate the relationship between common lifestyle facto
 1. **Problem Definition**  
    **Objective**: Predict the risk of developing diabetes based on various lifestyle factors and classify individuals into risk categories (e.g., low, moderate, high).
 
-2. **Data Collection and Preprocessing**  
+2. **Data Preprocessing**  
    - Clean and preprocess data (handling missing values, outliers).
    - Engineer features that will be used in modeling.
 
