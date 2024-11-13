@@ -46,9 +46,8 @@ This project aims to investigate the relationship between common lifestyle facto
 
 4. **Classification Model**  
    **Thresholding**: Define thresholds for the risk score to categorize individuals:  
-   - Low Risk: Score < X  
-   - Moderate Risk: Score between X and Y  
-   - High Risk: Score > Y  
+   - Low Risk: Score < threshold  
+   - High Risk: Score >= threshold   
    **Modeling**: Use classification techniques (e.g., decision trees) to assign individuals to these risk categories based on their risk scores.
 
 5. **Evaluation**  
