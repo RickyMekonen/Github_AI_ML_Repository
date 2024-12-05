@@ -17,7 +17,7 @@ This project aims to predict whether a client of a Portuguese banking institutio
 
 ### Data Sources
 
-- [Bank Marketing Dataset](https://www.kaggle.com/datasets/uciml/bank-marketing)
+- [Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
 *The dataset includes customer data collected through direct marketing campaigns and aims to predict client subscription to a term deposit.*
 
