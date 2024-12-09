@@ -31,7 +31,7 @@ This project aims to investigate the relationship between common lifestyle facto
 
 *I am merging the above two datasets, focusing only on features with lifestyle indicators.*
 
-## Methodology
+## Methodology (Expected Techniques)
 
 1. **Problem Definition**  
    **Objective**: Predict the risk of developing diabetes based on various lifestyle factors and classify individuals into risk categories (e.g., low, moderate, high).
@@ -62,7 +62,7 @@ This project aims to investigate the relationship between common lifestyle facto
 - pandas for data manipulation
 - matplotlib and seaborn for visualization
 
-## Expected Outcomes
+## Expected Results
 
 - Identification of key lifestyle factors significantly associated with diabetes.
 - Recommendations for public health interventions aimed at promoting healthier lifestyle choices.
