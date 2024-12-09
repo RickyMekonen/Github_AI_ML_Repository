@@ -1,4 +1,5 @@
-# Capstone  1: Investigating Lifestyle Factors and Diabetes Prevalence
+# Capstone  1
+# Investigating Lifestyle Factors and Diabetes Prevalence
  
 ## Overview
 
