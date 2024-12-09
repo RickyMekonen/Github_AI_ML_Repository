@@ -1,5 +1,5 @@
-# Investigating Lifestyle Factors and Diabetes Prevalence
-
+# Capstone  1: Investigating Lifestyle Factors and Diabetes Prevalence
+ 
 ## Overview
 
 This project aims to investigate the relationship between common lifestyle factors—such as diet, physical activity, sleep patterns, and stress levels—and the prevalence of major lifestyle diseases, specifically diabetes. By understanding these relationships, the project seeks to provide insights into effective public health interventions and lifestyle modifications that may reduce the risk of developing diabetes.
