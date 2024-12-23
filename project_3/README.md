@@ -27,8 +27,8 @@ This project aims to investigate the relationship between common lifestyle facto
 
 ### Data Sources
 
-- [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 - [Synthetic Diabetes 2 Type Prediction Dataset](https://www.kaggle.com/datasets/nigoraxonnasimova/synthetic-diabetes-2-type-prediction-dataset)
+- [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
 *I am merging the above two datasets, focusing only on features with lifestyle indicators.*
 
